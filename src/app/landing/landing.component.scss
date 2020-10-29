@@ -1,0 +1,19 @@
+.image-container{
+    background-image: url('https://wallpaperplay.com/walls/full/a/7/7/33420.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img{
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    box-shadow: 1px 1px 20px 10px #1a1a1a;
+    width: 25%;
+    margin: 4%;
+    transition-duration: 1s;
+}
+img:hover{
+    transform: rotateZ(10deg);
+    transition-duration: 1s;
+}
